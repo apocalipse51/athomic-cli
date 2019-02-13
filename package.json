@@ -1,0 +1,31 @@
+{
+  "name": "athomic-cli",
+  "version": "1.0.0",
+  "description": "CLI tool that helps on the creation of an athomic application.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Git",
+    "CLI"
+  ],
+  "author": "Gabriel Sobral, gabrielantonio20111@hotmail.com",
+  "license": "ISC",
+  "bin": {
+    "athomic": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "clear": "0.0.1",
+    "clui": "^0.3.6",
+    "colors": "^1.3.3",
+    "configstore": "^3.1.1",
+    "figlet": "^1.2.0",
+    "inquirer": "^5.0.1",
+    "minimist": "^1.2.0",
+    "node-run-cmd": "^1.0.1",
+    "touch": "^3.1.0"
+  }
+}
